@@ -1,0 +1,64 @@
+** start of undefined **
+
+<!doctype html>
+<html>
+  <head>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+
+    <h1 id="title">Build a Survey Form </h1>
+    <p id="description">Objective: Build an app that is functionally similar to https://survey-form.freecodecamp.rocks. Do not copy this demo project.</p>
+    <form id="survey-form">
+       <fieldset>
+       <label id="name-label">name:</label>
+       <input type="text" id="name" placeholder="your name" required><br><br>
+       <label id="email-label"> Email:</label>
+       <input type="email" id="email" placeholder="email adress" required><br><br>
+       <label id="number-label">Number:</label>
+       <input type="number" id="number" placeholder="99999999" min="20000000" max="99999999" required /><br><br>
+       <select id="dropdown" >
+       <option selected></option>
+       <option>element1</option>
+       <option>element2</option>
+       </select><br> <br>
+       <input type="radio" name="groupe1" value="valeur1">valeur1
+       <input type="radio" name="groupe1" value="valeur2">valeur2<br>
+       <input type="checkbox" value="valeur1">valeur1
+       <input type="checkbox" value="valeur2">valeur2
+       <br>
+      <textarea name="commentaire" >
+      </textarea><br><br>
+      <input buttom id="submit" type="submit">
+      </buttom>
+      </fieldset>
+   </form>
+  </body>
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+#title{
+  color:blue;
+  font-size:50px;
+  text-align:center;
+}
+#description{
+margin:20px;
+text-align:justify;
+background-color: gray;
+  
+}
+#survey-form{
+  background-color:gray;
+  padding:50px;
+}
+#name:hover{
+color:red;
+}
+
+
+** end of undefined **
+
